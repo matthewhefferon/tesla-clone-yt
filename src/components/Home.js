@@ -1,9 +1,9 @@
 import React from "react";
 import { FiChevronDown } from "react-icons/fi";
 
-const Hero = () => {
+const Home = () => {
   return (
-    <div className="text-center mt-32">
+    <div className="text-center mt-[8vh]">
       <div>
         <h1 className="text-4xl font-bold"> Model 3</h1>
         <p className="text-sm p-2">
@@ -14,11 +14,11 @@ const Hero = () => {
           </span>
         </p>
       </div>
-      <div className="flex flex-col items-center justify-center mt-[750px] text-sm lg:flex-row">
-        <button className="rounded-md bg-[#393c41] w-96 md:w-120 mx-0 h-10 md:mx-4 mt-2 text-white">
+      <div className="flex flex-col items-center justify-center mt-[65vh] text-sm lg:flex-row">
+        <button className="rounded-md bg-[#393c41] w-96 lg:w-64 mx-0 h-10 md:mx-4 mt-2 text-white">
           Custom Order
         </button>
-        <button className="rounded-md bg-[#f4f4f4] w-96 md:w-120 mx-0 h-10 md:mx-4 mt-2">
+        <button className="rounded-md bg-[#f4f4f4] w-96 lg:w-64 mx-0 h-10 md:mx-4 mt-2">
           Existing Inventory
         </button>
       </div>
@@ -29,4 +29,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;
