@@ -1,9 +1,8 @@
 import React from "react";
-import { FiChevronDown } from 'react-icons/fi'
+import { FiChevronDown } from "react-icons/fi";
 
 const Hero = () => {
   return (
-   
     <div className="text-center mt-32">
       <div>
         <h1 className="text-4xl font-bold"> Model 3</h1>
@@ -27,7 +26,6 @@ const Hero = () => {
         <FiChevronDown size={24} />
       </div>
     </div>
-    
   );
 };
 
