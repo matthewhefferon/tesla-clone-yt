@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="hidden xl:inline">
         <ul className="flex justify-center hover:cursor-pointer">
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">Model S</li>
-          <li className="py-1 px-3 first-letter:hover:rounded hover:bg-black/5">
+          <li className="py-1 px-3 hover:rounded hover:bg-black/5">
             Model 3
           </li>
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">Model X</li>
@@ -34,7 +34,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="xl:hidden">
-        <button className="inline-flex items-center rounded-md py-2 px-4 text-sm font-medium bg-[#000000]/5 shadow-sm hover:bg-[#000000]/10">
+        <button className="inline-flex items-center rounded-md py-2 px-4 text-sm font-medium bg-black/5 shadow-sm hover:bg-black/10">
           Menu
         </button>
       </div>
