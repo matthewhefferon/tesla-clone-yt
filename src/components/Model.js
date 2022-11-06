@@ -1,7 +1,7 @@
 import React from "react";
 import { FiChevronDown } from "react-icons/fi";
 
-const Hero = () => {
+const Model = () => {
   return (
     <div>
       <div className="absolute inset-x-0 top-[15%] text-center">
@@ -18,12 +18,12 @@ const Hero = () => {
       </div>
       <div className="flex flex-col items-center justify-center text-sm lg:flex-row absolute inset-x-0 bottom-[10%]">
         <a href="https://www.tesla.com/model3/design">
-          <button className="rounded-md bg-[#393c41] w-96 lg:w-64 mx-0 h-10 md:mx-4 mt-2 text-white">
+          <button className="rounded-md bg-[#393c41] w-96 lg:w-64 h-10 lg:mx-4 mt-2 text-white">
             Custom Order
           </button>
         </a>
         <a href="https://www.tesla.com/model3/design">
-          <button className="rounded-md bg-[#f4f4f4] w-96 lg:w-64 mx-0 h-10 md:mx-4 mt-2">
+          <button className="rounded-md bg-[#f4f4f4] w-96 lg:w-64 h-10 lg:mx-4 mt-2">
             Existing Inventory
           </button>
         </a>
@@ -35,4 +35,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Model;
