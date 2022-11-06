@@ -13,9 +13,7 @@ const Navbar = () => {
       <div className="hidden xl:inline">
         <ul className="flex justify-center hover:cursor-pointer">
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">Model S</li>
-          <li className="py-1 px-3 hover:rounded hover:bg-black/5">
-            Model 3
-          </li>
+          <li className="py-1 px-3 hover:rounded hover:bg-black/5">Model 3</li>
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">Model X</li>
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">Model Y</li>
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">

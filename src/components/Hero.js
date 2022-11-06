@@ -1,20 +1,20 @@
 import React from "react";
 import { FiChevronDown } from "react-icons/fi";
 
-const Home = () => {
+const Hero = () => {
   return (
-    <div className="text-center mt-[8vh]">
-      <div>
+    <div>
+      <div className="absolute inset-x-0 top-[15%] text-center">
         <h1 className="text-4xl font-bold"> Model 3</h1>
         <p className="text-sm p-2">
           {" "}
           Order Online for{" "}
-          <span className="underline underline-offset-4">
+          <span className="underline underline-offset-4 hover:cursor-pointer">
             Touchles Delivery
           </span>
         </p>
       </div>
-      <div className="flex flex-col items-center justify-center mt-[65vh] text-sm lg:flex-row">
+      <div className="flex flex-col items-center justify-center text-sm lg:flex-row absolute inset-x-0 bottom-[10%]">
         <button className="rounded-md bg-[#393c41] w-96 lg:w-64 mx-0 h-10 md:mx-4 mt-2 text-white">
           Custom Order
         </button>
@@ -22,11 +22,11 @@ const Home = () => {
           Existing Inventory
         </button>
       </div>
-      <div className="flex justify-center mt-16 animate-bounce">
+      <div className="flex justify-center animate-bounce absolute inset-x-0 bottom-[3%]">
         <FiChevronDown size={24} />
       </div>
     </div>
   );
 };
 
-export default Home;
+export default Hero;
