@@ -20,7 +20,7 @@ const Navbar = () => {
             />
           </a>
         </div>
-        <div className="hidden xl:inline">
+        <div className="hidden lg:inline">
           <ul className="flex justify-center hover:cursor-pointer">
             <li className="py-1 px-3 hover:rounded hover:bg-black/5">
               <a href="https://tesla.com/models">Model S</a>
@@ -42,7 +42,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="hidden xl:inline">
+        <div className="hidden lg:inline">
           <ul className="flex justify-center hover:cursor-pointer">
             <li className="py-1 px-3 hover:rounded hover:bg-black/5">
               <a href="https://shop.tesla.com">Shop</a>
@@ -55,7 +55,7 @@ const Navbar = () => {
             </div>
           </ul>
         </div>
-        <div onClick={handleNav} className="xl:hidden">
+        <div onClick={handleNav} className="lg:hidden">
           <button className="inline-flex items-center rounded-md py-2 px-4 p-2 text-sm font-medium bg-black/5 shadow-sm hover:bg-black/10">
             Menu
           </button>
