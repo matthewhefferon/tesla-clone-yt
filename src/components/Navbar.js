@@ -50,13 +50,16 @@ const Navbar = () => {
             <li className="py-1 px-3 hover:rounded hover:bg-black/5">
               <a href="https://tesla.com/teslaaccount">Account</a>
             </li>
-            <div onClick={handleNav}>
-              <li className="py-1 px-3 hover:rounded hover:bg-black/5">Menu</li>
-            </div>
+            <li
+              onClick={handleNav}
+              className="py-1 px-3 hover:rounded hover:bg-black/5"
+            >
+              Menu
+            </li>
           </ul>
         </div>
-        <div onClick={handleNav} className="lg:hidden">
-          <button className="inline-flex items-center rounded-md py-2 px-4 p-2 text-sm font-medium bg-black/5 shadow-sm hover:bg-black/10">
+        <div className="lg:hidden">
+          <button onClick={handleNav} className="inline-flex items-center rounded-md py-2 px-4 p-2 text-sm font-medium bg-black/5 shadow-sm hover:bg-black/10">
             Menu
           </button>
         </div>
@@ -64,12 +67,12 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "absolute right-0 top-0 w-80 h-full z-10 bg-white"
+              ? "bg-white absolute right-0 top-0 w-80 h-full z-10"
               : "fixed right-[-100%]"
           }
         >
-          <div onClick={handleNav} className="flex justify-end pr-8 pt-8">
-            <TfiClose className="rounded p-1 hover:bg-black/5" size={28} />
+          <div className="flex justify-end pr-8 pt-8">
+            <TfiClose onClick={handleNav} className="rounded p-1 hover:bg-black/5" size={28} />
           </div>
           <ul className="pt-8 px-6">
             <li className="py-3 pl-3 hover:rounded hover:bg-black/5">
